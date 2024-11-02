@@ -1,0 +1,74 @@
+/*new tab page */
+
+@-moz-document url(about:newtab), url(about:home) { 
+
+
+    .outer-wrapper {
+      background-image: url(background.gif), url(background.png), url(background.jpg) !important; /* Image in chrome folder */
+      background-size: cover !important;
+      background-attachment: fixed !important;
+    }
+
+
+    .top-site-outer .tile {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+
+    .top-site-outer .tile .icon-wrapper {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .top-site-outer.placeholder.add-button .tile .icon-wrapper {
+        width: 24px !important;
+        height: 24px !important;
+    }
+
+    .top-site-outer .top-site-inner > a {
+        padding: 0px !important;
+    }
+
+
+    .top-site-outer .title {
+        font-size: 1.2em !important;
+        font-family: 'Segoe UI', 'Roboto', arial, sans-serif  !important;
+    }
+
+    .title span {
+        white-space: wrap !important;
+      }
+
+    .top-site-outer {
+        padding-top: 20px !important;
+    }
+
+    main {
+        justify-content: flex-start !important;
+    }
+
+
+
+    .top-sites-list {
+        display: flex !important;
+        gap: 20px !important;
+        flex-wrap: wrap !important;
+    }
+    .collapsible-section {
+        padding: 0px !important;
+      }
+
+
+
+
+/*Only logo in search option
+      .logo-and-wordmark {
+        margin-bottom: 0px !important;
+      }
+      .search-wrapper .search-inner-wrapper {
+        display: none !important;
+      }
+*/
+
+}
