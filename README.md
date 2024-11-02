@@ -11,6 +11,7 @@ Installation:
 2. In this folder create folder "chrome".
 3. Use git clone in chrome folder to copy repository files.
 4. Done.
+
 -Bookmark
 1. Copy code from bookmarklet_changebackground.js
 2. After installing theme in browser right click on bookmark panel and create new bookmark.
