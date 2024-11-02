@@ -4,7 +4,9 @@ This is my original theme for Firefox browser, it uses userContent.css to change
 Features:
 
 -custom background (I use pixel art gif created by kirokaze)
+
 -bigger icons
+
 -bookmarklet javascript code for changing backgrounds
 
 Installation:
