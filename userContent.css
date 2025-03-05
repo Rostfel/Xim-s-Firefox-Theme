@@ -57,8 +57,16 @@
     }
     .collapsible-section {
         padding: 0px !important;
-      }
+    }
 
+
+
+
+
+
+    .layout-variant-b .top-site-outer {
+        width: auto !important; /*calc(var(--size-item-large) * 3);  */
+    }
 
 
 
